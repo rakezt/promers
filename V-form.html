@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vainglory form</title>
+	<link rel="icon" type="image.png" href="images/promers.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+<body>
+	<nav id="topnav">
+		<ul>
+			<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="game.html">Game</a></li>
+			<li><a href="about us.html">About</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+	<form id="myform" method="post" action="complete.html" name="myForm" onsubmit= "return validateform()">
+		<label>Full Name<input type="text" name="name"></label><br>
+		<label>Father's Name<input type="text" name="fathername"></label><br>
+		<label>Date of Birth<input type="date" name="age"></label><br>
+		<label>Gender</label>
+		<label>Male<input type="radio" name="male" id="male" ></label>
+		<label>Female<input type="radio" name="female" id="female"></label>
+		<label>Other<input type="radio" name="other" id="other"></label><br>
+		<label>Email Address<input type="Email" name="emailaddress"></label><br>
+		<label>Create a Password<input type="password" name="pass"></label><br>
+		<label>Mobile Number<input type="Number" name="mobile"></label><br>
+		<label>Choose Game</label>
+		<label>PUBG<input type="radio" name="pubg" id="pubg"></label>
+		<label>Vainglory<input type="radio" name="vg" id="vg"></label> <br>
+		<label>Choose Plan<select><option value="option1">Rs.250/- for 1 month</option>
+						<option value="option2">Rs.400/- for 2 month</option>
+						<option value="option3">Rs.500/- for 3 month</option></select></label><br>
+		<label><button id="mybutton">Submit</button></label>
+
+	</form>
+</div>
+
+<aside class="sidebar">
+		<h2>Contact us</h2>
+		<p> Want to get connected with us? Whether you are a developer, player, partner or fan...</p>
+		<a href="mailto:rakezt.k@gmail.com">Click here</a>
+	</aside>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+<footer id="main-footer">	
+		<div>
+		<a href="www.facebook.com/promers"><img src="images/facebook.png" width="50"height="50" alt="facebook"></a>
+		<a href="www.instagaram.com/promers"><img src="images/instagram.png" width="50"height="50" alt="instagram"></a>
+		<a href="www.youtube.com/promers"><img src="images/youtube.png" width="50"height="50" alt="youtube"></a>
+		<a href="www.tumblr.com/promers"><img src="images/tumblr.png" width="50"height="50" alt="tumblr"></a>
+		<a href="www.twitter.com/promers"><img src="images/twitter.png" width="50"height="50"	 alt="twitter"></a>
+		<p>&copy 2019 Yoursweetnightmare</p>
+	</div>
+</footer>
+</html>

@@ -1,0 +1,217 @@
+body{
+	background-image: linear-gradient(red, yellow);
+	font-family: monospace;
+	font-size: 18px;
+	margin:auto 0;
+	line-height: 1.6em;
+	background-repeat: no-repeat;
+	width:auto 0;
+}
+@media only screen and ( max-width:600px){
+	#topnav {
+		font-size: 0.9em;
+		padding:0;
+	}
+}
+#topnav{
+	background-color: black;	
+	width:100%;
+	overflow:auto;
+}
+ul{	display:flex;
+	list-style: none;
+	margin:0;
+
+}
+li{
+	padding: 20px;
+}
+
+#topnav a{	
+	text-transform: uppercase;
+    text-decoration: none;
+	color:#f5f5f6;
+   	font-size: 1.2em
+
+}
+#topnav a:hover{
+	color:lightgrey;
+	opacity:1.5;
+	font-size: 1.4em;
+	text-decoration: bold;
+	text-shadow: 2px 2px 5px white;
+}
+#push{
+	margin-left: auto;
+	background-color: yellow;
+	border-radius: 20%;
+}
+#push a{
+    color:black;
+}
+#images{
+	text-align: center;
+}
+#images h1{
+	font-family: 'Acme', sans-serif;
+	font-size: 3.5em;	
+	margin:20px;
+	padding:50px;
+	line-height: 60px;
+	text-shadow: 2px 2px 5px lightgrey;
+}
+#images h2{
+	font-family: 'Acme', sans-serif;
+	font-size: 3em;	
+	margin:20px;
+	padding:50px;
+	line-height: 60px;
+	text-shadow: 2px 2px 5px lightgrey;	
+}
+#images p{
+	font-size: 2em;
+	line-height: 60px;
+	text-shadow: 2px 2px 5px;
+	text-decoration: underline;
+}
+.sidebar {	
+	margin:20px;
+	width:50%;
+	font-size: 14px;
+	border: 1px solid grey;
+}
+.sidebar h2{
+	margin:10px 30px;
+	color:white;
+}
+.sidebar p{
+	margin:10px 30px;
+	font-weight: bold;
+}
+.sidebar a{
+	margin:30px;
+	color:black;}
+#main-footer{
+	width:100%;
+	position:absolute;
+	border:5px 5px solid darkgrey;
+	background-image: linear-gradient(yellow,grey);
+}
+#main-footer a{
+	cursor:pointer;
+	margin-left: 35px 10px;
+}
+#main-footer p{
+	float: right;
+	margin-right: 20px;	
+}
+
+#game {
+	text-align: center;
+}
+
+#game h1{
+	color:gold;
+	font-family: 'Acme', sans-serif;
+	font-size: 30px;
+}
+#game a{
+	text-decoration: none;
+	color:gold;
+	text-shadow: 2px 2px 5px red;
+}
+#game p{
+	text-shadow: 2px 2px 5px;
+}
+.vain{
+	transition: all 0.1s;
+}
+.vain:hover{
+	transform:scale(1.5);
+}
+
+#about{
+	text-align: center;
+	width:80%;
+	margin:auto;
+	overflow:hidden
+}
+#about p{
+	font-weight: bold;
+	}
+#myform{ 
+	margin:20px;
+	padding: 20px;
+	line-height: 1.6em;
+	color:white;
+}
+#myform input[type=text]{
+	padding:6px;
+	margin:5px;
+	font-size:16px;
+	display:block;
+	width:50% ;
+}
+#myform input[type=email]{
+	padding:6px;
+	margin:5px;
+	font-size:16px;
+	display:block;
+	width:50% ;
+}
+#myform input[type=password]{
+	padding:6px;
+	margin:5px;
+	font-size:16px;
+	display:block;
+	width:50% ;
+}
+#myform input[type=number]{
+	padding:6px;
+	margin:5px;
+	font-size:16px;
+	display:block;
+	width:50% ;
+}
+#myform input[type=date]{
+	padding:6px;
+	margin:5px;
+	font-size:16px;
+	display:block;
+	width:30% ;
+}
+#myform input[type=radio]{
+	padding:6px;
+	margin:1px 40px 20px 5px;
+	font-size:16px;
+}
+#myform select{
+	padding:6px;
+	margin:1px 40px 20px 5px;
+	font-size:16px;
+}
+#last1{
+	background-color: black;
+	color:black;
+}#last{
+	text-align: center;
+	margin:30px;
+	padding:20px;
+	border:3px solid #115e0c;
+}
+.container button{
+	font-family: monospace;
+	padding:10px 20px;
+	background-color:yellow;
+	font-size:1em;
+	font-weight: bold;
+	transition: all 0.1s;
+}
+.container button:hover{
+	font-family: monospace;
+	font-weight: bold;
+	color:lightgrey;
+	padding:15px 25px;
+	background-color: orange;
+	transform::scale(1.5); 
+}
