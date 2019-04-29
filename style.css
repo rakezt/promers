@@ -50,11 +50,12 @@ li{
     color:black;
 }
 #images{
+	background-position: center;
 	text-align: center;
 }
 #images h1{
 	font-family: 'Acme', sans-serif;
-	font-size: 3.5em;	
+	font-size: 2.5em;	
 	margin:20px;
 	padding:50px;
 	line-height: 60px;
@@ -62,14 +63,17 @@ li{
 }
 #images h2{
 	font-family: 'Acme', sans-serif;
-	font-size: 3em;	
+	font-size: 2em;	
 	margin:20px;
 	padding:50px;
 	line-height: 60px;
 	text-shadow: 2px 2px 5px lightgrey;	
 }
 #images p{
-	font-size: 2em;
+	margin:100px 230px;
+	text-align: center;
+	width:60%;
+	font-size: 1.5em;
 	line-height: 60px;
 	text-shadow: 2px 2px 5px;
 	text-decoration: underline;
